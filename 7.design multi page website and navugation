@@ -1,0 +1,91 @@
+a. Learn how to create a multi-page website with Home, About, and Contact pages.
+b. Learn how to add navigation links for seamless page transitions.
+c. Learn how to structure content for a professional website using HTML and CSS.
+
+
+Home Page (index.html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - My Website</title>
+    <style>
+        body { font-family: Arial; background-color: #f2f2f2; text-align: center; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; }
+        nav a:hover { color: yellow; }
+        .box { background: white; padding: 30px; width: 60%; margin: 40px auto; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="box">
+        <h1>Welcome to My Website</h1>
+        <p>This is the home page of a simple multi-page website using HTML and CSS.</p>
+    </div>
+</body>
+</html>
+
+👤 About Page (about.html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - My Website</title>
+    <style>
+        body { font-family: Arial; background-color: #f2f2f2; text-align: center; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; }
+        nav a:hover { color: yellow; }
+        .box { background: white; padding: 30px; width: 60%; margin: 40px auto; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="box">
+        <h1>About Us</h1>
+        <p>We are learning how to create simple multi-page websites with navigation links.</p>
+    </div>
+</body>
+</html>
+
+✉️ Contact Page (contact.html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - My Website</title>
+    <style>
+        body { font-family: Arial; background-color: #f2f2f2; text-align: center; }
+        nav { background: #333; padding: 10px; }
+        nav a { color: white; margin: 15px; text-decoration: none; }
+        nav a:hover { color: yellow; }
+        .box { background: white; padding: 30px; width: 60%; margin: 40px auto; border-radius: 10px; }
+        input, textarea { width: 80%; padding: 8px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="box">
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea rows="4" placeholder="Your Message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
