@@ -1,0 +1,71 @@
+a. Learn how to apply inline CSS to style individual HTML elements.
+b. Learn how to use internal CSS for styling multiple elements within a single HTML page.
+c. Learn how to use external CSS to maintain a separate stylesheet for consistent styling across web pages.
+
+So, here’s a complete example that covers all three types of CSS — inline, internal, and external.
+
+🧩 1. HTML File – index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Applying CSS Styling</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            color: #333333;
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: green;
+            font-weight: bold;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 15px;
+            background-color: white;
+            width: 50%;
+            margin: auto;
+            border-radius: 10px;
+        }
+    </style>
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <h1 style="color: red;">Applying CSS Styling to Web Pages</h1>
+
+    <div class="box">
+        <p>This paragraph is styled using <b>internal CSS</b>.</p>
+        <p class="highlight">This one uses a class with internal CSS styling.</p>
+        <p style="color: blue; font-style: italic;">This line uses <b>inline CSS</b> directly inside the tag.</p>
+    </div>
+
+    <p class="footer-text">This paragraph is styled using <b>external CSS</b>.</p>
+</body>
+</html>
+
+🎨 2. External CSS File – style.css
+.footer-text {
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
