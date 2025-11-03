@@ -1,0 +1,43 @@
+a. To create a contact form using HTML
+b. To include input fields, text areas, and buttons for user interaction
+c. To understand the structure and functionality of HTML forms for data collection
+
+Here’s the HTML code that matches your experiment perfectly 👇
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="name"><b>Full Name:</b></label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label for="email"><b>Email Address:</b></label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Phone -->
+        <label for="phone"><b>Phone Number:</b></label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+        <!-- Subject -->
+        <label for="subject"><b>Subject:</b></label><br>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject"><br><br>
+
+        <!-- Message -->
+        <label for="message"><b>Message:</b></label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Type your message here..."></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <p><b>Note:</b> This form demonstrates input fields, text areas, and buttons used in HTML forms.</p>
+</body>
+</html>
