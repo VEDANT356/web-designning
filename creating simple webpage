@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h1>Welcome to My First Web Page</h1>
+
+    <!-- Paragraph -->
+    <p>This is a simple web page created using <b>HTML</b>. It includes different elements like headings, paragraphs, and lists.</p>
+
+    <!-- Text formatting -->
+    <p>HTML stands for <i>HyperText Markup Language</i>. It is used to design the structure of web pages.</p>
+
+    <!-- Ordered List -->
+    <h2>Steps to Create a Web Page</h2>
+    <ol>
+        <li>Open any code editor (like Visual Studio Code).</li>
+        <li>Write HTML code.</li>
+        <li>Save the file with a .html extension.</li>
+        <li>Open it in a browser.</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>HTML Tags Used</h2>
+    <ul>
+        <li>&lt;h1&gt; to &lt;h6&gt; - Headings</li>
+        <li>&lt;p&gt; - Paragraph</li>
+        <li>&lt;b&gt; - Bold Text</li>
+        <li>&lt;i&gt; - Italic Text</li>
+        <li>&lt;ol&gt; and &lt;ul&gt; - Lists</li>
+    </ul>
+
+    <p><b>Conclusion:</b> This experiment helps in understanding the basic structure and formatting of an HTML web page.</p>
+</body>
+</html>
